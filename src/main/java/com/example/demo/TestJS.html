@@ -1,0 +1,40 @@
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <title>Head</title>-->
+<!--    &lt;!&ndash;    <link href="stype.css" rel="stylesheet" type="text/css"/>&ndash;&gt;-->
+<!--</head>-->
+<!--<script type="text/javascript">-->
+<!--    function countpara(){-->
+<!--        var totalpara=document.getElementsByTagName("p");-->
+<!--        alert("total p tags are: "+totalpara.length);-->
+
+<!--    }-->
+<!--</script>-->
+<!--<p>This is a pragraph</p>-->
+<!--<p>Here we are going to count total number of paragraphs by getElementByTagName() method.</p>-->
+<!--<p>Let's see the simple example</p>-->
+<!--<button onclick="countpara()">count paragraph</button>-->
+<!--<body>-->
+<!--<form name="form1">-->
+<!--    Enter Name: <input id = "test" name="name" type="text">-->
+<!--    <input onclick="printValue()" type="button" value="click">-->
+<!--</form>-->
+
+<!--&lt;!&ndash;<script src="JavaScript.js"></script>&ndash;&gt;-->
+
+<!DOCTYPE html>
+<html>
+<body>
+<p> Example of the addEventListener() method. </p>
+<p> Click the following button to see the effect. </p>
+<button id = "btn"> Click me </button>
+<input type = "button" name="Click me bro" value="value">
+<p id = "para"></p>
+<script>
+    document.getElementById(  "btn").addEventListener("click", fun);
+    function fun() {
+        document.getElementById("para").innerHTML = "Hello World" + "<br>" + "Welcome to the  javaTpoint.com";
+    }
+</script>
+</body>
+</html>
